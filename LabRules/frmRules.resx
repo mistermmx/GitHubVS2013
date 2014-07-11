@@ -1,0 +1,604 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="rtxtEnglish.Text" xml:space="preserve">
+    <value>Computer Laboratories
+
+	•	The computer laboratories are under 24 hour video surveillance.
+	•	Usage is restricted to
+		o	students who are registered for modules offered by the Department of Computer Science and Informatics (CSI);
+		o	CSI students who agreed to and signed this disciplinary code.
+
+	•	The laboratories are for academic use only.  No games or other non-academic software may be downloaded, installed or used.
+	•	Eating and drinking in the laboratories is strictly prohibited.
+	•	The labs are to be kept clean at all times.
+	•	Noise in the laboratories will not be tolerated.
+	•	Staff members and laboratory assistants on duty must be obeyed at all times.
+
+Copying, Collaboration and Plagiarism
+
+	•	Copying implies that programming code, text, images, etc. submitted as being the work of the submitting student is partially or wholly that of another person. The action of changing of identifiers does not nullify the copying.
+	•	Collaboration implies that the student received assistance from one or more persons (including students in the class, people outside the class, the lecturer, other CSI staff members, the student assistants, an Internet chat room, etc.) in completing an assignment. In all cases the assignment specifications will serve as a guideline on which type of assistance (if any) is allowed. 
+	•	Collaboration with other people is typically only allowed when the assignment specifications clearly indicate that it is a team or group assignment.  In such cases the names of all group members must be listed in all submitted copies of the assignment.
+	•	Plagiarism can be defined as the deliberate copying, writing or presenting as one's own the information, ideas or phrasing of another person without proper acknowledgment of the true source. Additionally, neglecting to paraphrase the original source will also be construed as plagiarism regardless of whether proper acknowledgement is given.
+	•	Should the work of two or more individual students (for an individual assignment) or groups of students (for a group assignment) be identical or very similar, the possibility of copying and/or collaboration will be investigated.
+
+Level of Offences
+The following is a non-exhaustive list of offences and the Department of Computer Science and Informatics reserves the right to amend or add to the list of offences at the discretion of the departmental management.  Moreover, offences which arise and are not explicitly listed here will be subject to the same disciplinary code of conduct as other offences.
+
+	•	The following offences are regarded as Level 1 (minor) offences:
+		o	Allowing non-CSI students or students who have been banned into the laboratories.
+		o	Logging on for non-CSI students.
+		o	Eating and drinking in the laboratories.
+		o	Littering
+		o	Making or causing unnecessary noise in the building.  The academic nature of the environment should be respected at all times.
+		o	Failing to change your Blackboard or Novell password to something other than your student number or failing to keep your passwords secret.
+
+	•	The following offences are regarded as Level 2 (serious) offences:
+		o	Logging on for students who have been banned from using the laboratories.
+		o	Copying of module evaluations, written assignments, practical assignments or evaluations from another student.
+		o	Allowing other students to copy your work or sharing your work with other students or assisting other students to complete their assignments.
+		o	Collaboration on individual assignments (both written and practical).
+		o	Plagiarism as defined above.
+			o	Downloading, installing or use of non-departmental software on the laboratory computers, e.g. games, music, torrents, etc.
+
+	•	The following offences are regarded as Level 3 (very serious) offences:
+		o	Identity theft, e.g. logging into Blackboard using the credentials of another student.
+		o	Watching pornography.
+		o	Copying during examination sessions or final assessments.
+
+Consequences
+
+		•	Assignments where copying, collaboration or plagiarism can be proved will not be accepted.  This will result in the student’s module being marked as incomplete.  The student will, however, be given an opportunity to resubmit the assignment (or a similar assignment) to the satisfaction of the lecturer to reverse the incomplete.  A mark of 0 will be awarded for resubmitted assignments. This is in accordance with the university’s Plagiarism Prevention Policy.
+		•	Students will get an oral warning for Level 1 offences and a written warning for Level 2 offences in which case they must sign to acknowledge receipt thereof.
+		•	All proven Level 2 and 3 offences will be recorded with date and time, level and details of the offence. 
+		•	Level 3 offences as well as Level 2 offences where the student(s) involved maintain their innocence will be reported to the university’s disciplinary committee for further investigation and action.  Students should take note that this could result in expulsion from the university.
+
+Annotations
+
+		•	In the case of copying, the original owner of the work can sign an affidavit that he/she was not aware of his/her work being copied and that he/she did not give another student permission to copy/download/submit part/all of his/her work and that he/she is aware that the other student will be accused of theft of intellectual property.
+		•	Students who are banned from the computer laboratories, temporarily or permanently, will be allowed during formal practical assessments which are conducted under controlled circumstances under the supervision of an appointed invigilator.
+		•	Students will have the right to defend themselves and present evidence in their favour.</value>
+  </data>
+  <metadata name="focusTimer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>104, 17</value>
+  </metadata>
+  <data name="rtxtAfrikaans.Text" xml:space="preserve">
+    <value>Rekenaarlaboratoria
+
+	•	Die rekenaarlaboratoria is onder 24-uur video-waarneming.
+	•	Gebruik word beperk tot
+		o	studente wat geregistreer is vir modules wat deur die Departement Rekenaarwetenskap en Informatika (RKW) aangebied word;
+		o	RKW studente wat die dissiplinêre kode aanvaar en onderteken het.
+
+	•	Die laboratoria is slegs vir akademiese gebruik.  Geen speletjies of ander nie-akademiese sagteware mag afgelaai, geïnstalleer of gebruik word nie.
+	•	Eet en drink in die laboratoria is streng verbode.
+	•	Die laboratoria moet te alle tye skoon gehou word.
+	•	Geraas sal nie in die laboratoria geduld word nie.
+	•	Personeellede en laboratorium-assistente wat diens doen moet te alle tye gehoorsaam word.
+
+Kopiëring, Samewerking en Plagiaat
+
+	•	Kopiëring impliseer dat programkode, teks, prente, ensovoorts van ’n ander persoon, gedeeltelik of in geheel, ingedien word asof dit die werk is van die student wat dit indien. Die verandering van identifiseerders maak nie die kopiëring ongedaan nie.
+	•	Samewerking impliseer dat die student hulp ontvang met die voltooiing van ’n opdrag vanaf een of meer persone (insluitend klasmaats, persone van buite die klas, die dosent, ander RKW personeellede, studente-assistente, ’n Internet geselskamer, ens.). In alle gevalle sal die opdragspesifikasies as riglyn gebruik word om te bepaal watter tipe hulp (indien enige) toelaatbaar is. 
+	•	Samewerking met ander persone word net toegelaat indien die opdragspesifikasies aandui dat dit ’n span- of groepopdrag is.  In sulke gevalle moet die name van al die groeplede in al die kopieë van die opdrag wat ingehandig is, gelys word.
+	•	Plagiaat kan gedefinieer word as die opsetlike kopiëring, skryf of aanbieding van iemand anders se idees, sonder die behoorlike erkenning van die werklike bron, asof dit die student se eie inligting, idees of frasering is. Die nalaat van herfrasering van inligting of idees vanuit die oorspronklike bron sal ook as plagiaat geag word, al word behoorlike erkenning daarvoor gegee.
+	•	Indien die werk van een of meer individuele studente (vir ’n individuele opdrag) of groepe (vir ’n groepopdrag) identies is of baie dieselfde is, sal die moontlikheid van kopiëring en/of samewerking ondersoek word.
+
+Vlakke van Oortredings
+Die volgende is ’n nie-volledige lys van oortredings en die Departement Rekenaarwetenskap en Informatika behou die reg voor om dit te wysig of aan te vul volgens die diskresie van die departementele bestuur. Oortredings wat opduik en nie eksplisiet hier gelys is nie, sal onderhewig wees aan dieselfde dissiplinêre gedragskode as ander oortredings.
+
+	•	Die volgende oortredings word as Vlak 1 (minder ernstige) oortredings beskou:
+		o	Verleen toegang tot die laboratoria aan nie-RKW studente of studente wat verban is.
+		o	Teken aan vir nie-RKW studente.
+		o	Eet en drink in die laboratoria.
+		o	Rommelstrooiing.
+		o	Maak of veroorsaak onnodige geraas in die gebou. Die akademiese aard van die omgewing moet te alle tye gerespekteer word.
+		o	Versuim om jou Blackboard of Novell wagwoord te verander na iets anders as jou studentenommer of die versuim om jou wagwoorde geheim te hou.
+
+	•	Die volgende oortredings word as Vlak 2 (ernstige) oortredings beskou:
+		o	Teken aan vir studente wat verban is om die laboratoria te gebruik. 
+		o	Kopiëring van module-evaluerings, geskrewe opdragte, praktiese opdragte of –evaluerings vanaf ’n ander student.
+		o	Laat toe dat ander studente jou werk kopieer of deel jou werk met ander studente of help ander studente met die voltooiing van hul opdragte.
+		o	Die saamwerk aan individuele opdragte (beide geskrewe en prakties).
+		o	Plagiaat soos hierbo gedefinieer.
+		o	Aflaai, installeer of gebruik van nie-departementele sagteware op die laboratoriumrekenaars, bv. speletjies, musiek, torrents, ens.
+
+	•	Die volgende oortredings word as Vlak 3 (baie ernstige) oortredings beskou:
+		o	Identiteitsdiefstal, bv. aanteken in Blackboard deur die besonderhede van ’n ander student te gebruik.
+		o	Kyk na pornografie.
+		o	Kopiëring gedurende eksamensessies of finale assesserings.
+
+Gevolge
+
+	•	Opdragte waar kopiëring, samewerking of plagiaat bewys kan word, sal nie aanvaar word nie. 
+		  Dit sal meebring dat die student se module as onvoltooid gemerk word. 
+  		  Die student sal egter die geleentheid gegun word om die of ’n soortgelyke opdrag weer in te handig tot bevrediging van die dosent om die onvoltooid om te keer.  Die student sal 0 kry vir opdragte wat weer ingedien word. 
+		  Dit is in ooreenstemming met die universiteit se plagiaatvoorkomingsbeleid.
+	•	Studente sal ’n mondelinge waarskuwing kry vir Vlak 1 oortredings en ’n skriftelike waarskuwing vir Vlak 2 oortredings waarvoor hulle ontvangserkenning moet teken. 
+	•	Rekord sal gehou word van alle bewese Vlak 2 en Vlak 3 oortredings met datum, tyd, vlak en volledige besonderhede van die oortreding. 
+	•	Vlak 3 oortredings sowel as Vlak 2 oortredings waarvoor die betrokke student(e) nie skuld erken nie, sal gerapporteer word aan die universiteit se dissiplinêre komitee vir verdere ondersoek en aksie.  Studente moet kennis neem dat dit kan lei tot skorsing.
+
+Annotasies
+	
+	•	In die geval van kopiëring kan die eienaar van die werk ’n beëdigde verklaring teken waarin hy/sy bevestig dat hy/sy nie bewus was daarvan dat sy/haar werk gekopieër is nie,
+		  en dat hy/sy nie aan ’n ander student toestemming verleen het om ’n deel/geheel van sy/haar werk te kopieer/af te laai/in te handig nie,
+		  en dat hy/sy bewus is daarvan dat die ander student aangekla gaan word van diefstal van intellektuele eiendom.
+	•	Studente wat tydelik of permanent uit die laboratoria geskors is, sal toegelaat word gedurende formele praktiese assesserings wat onder gekontroleerde toestande en onder toesig van ’n aangewese toesighouer afgeneem word.
+	•	Studente het die reg om hulself te verdedig en bewyse wat in hul guns tel te voorskyn te bring.</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>81</value>
+  </metadata>
+</root>

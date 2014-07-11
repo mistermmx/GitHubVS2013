@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	<Product Id="*" Name="Installer_Client" Language="1033" Version="1.0.0.0" Manufacturer="Victor Grobler" UpgradeCode="df0fdf34-04bb-4fb1-831e-cbca748803b1">
+		<Package Id="*" InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+    <Property Id="LABRULES_START_VIA_REGISTRY">1</Property>
+    
+    
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate EmbedCab="yes"/>
+
+		<Feature Id="ProductFeature" Title="Installer" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+		</Feature>
+	</Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="Lab Rules" />
+			</Directory>
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+    
+		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+      
+			<!-- TODO: Remove the comments around this Component element and the ComponentRef below in order to add resources to this installer. -->
+      <Component  Guid="{BCEAB898-6C23-4D77-8429-0346BF594218}">
+        <File Source="$(var.LabRulesClient.TargetPath)" KeyPath="yes"/>
+      </Component>
+      
+				<!-- TODO: Insert files, registry keys, and other resources here. -->
+      <Component Id="LabRulesAutostart" Guid="{C72E6320-2C9D-425E-B845-4AB249099480}">
+        <RegistryValue Id="MerAs.rst" Root="HKCU" Action="write"
+                       Key="Software\Microsoft\Windows\CurrentVersion\Run"
+                       Name="LabRules"
+                       Value="[INSTALLDIR]LabRules.exe"
+                       Type="string" />
+        <Condition>LABRULES_START_VIA_REGISTRY</Condition>
+      </Component>
+			<!-- </Component> -->
+		</ComponentGroup>
+	</Fragment>
+</Wix>
